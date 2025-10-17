@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.chessboard {
+  border: 20px solid #45574d;
+  display: inline-block;
+  position: relative;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+}
+
+.row {
+  display: contents;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.dark {
+  background-color: #45574d;
+}
+
+.top-labels,
+.bottom-labels {
+  display: flex;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.top-labels {
+  top: -20px;
+}
+
+.bottom-labels {
+  bottom: -20px;
+}
+
+.left-labels,
+.right-labels {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20px;
+}
+
+.left-labels {
+  left: -20px;
+}
+
+.right-labels {
+  right: -20px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.top-labels .label,
+.bottom-labels .label {
+  width: 50px;
+  height: 20px;
+}
+
+.left-labels .label,
+.right-labels .label {
+  width: 20px;
+  height: 50px;
+}
