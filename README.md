@@ -11,16 +11,17 @@ This repository is for designing each part of a chess game (board + pieces) usin
 ## 🧩 Components
 
 - ✅ **Chessboard** — Completed
-- ♙ **Pawn** — In progress
-- ♖ **Rook** — Coming soon
-- ♘ **Knight**
+- ✅ **Pawn** — Completed
+- ♖ **Rook** — In progress
+- ♘ **Knight** — Coming soon
 - ♗ **Bishop**
 - ♕ **Queen**
 - ♔ **King**
 
-| 🧩 Piece         | 🖼️ Preview                                         | 💻 Code                   | 🌐 Live Demo                                                               |
-| ---------------- | -------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------- |
-| ♜ **Chessboard** | ![Chessboard Preview](./chessboard/chessboard.png) | [View Code](./chessboard) | [Live Demo](https://ibraheamit.github.io/chess-pieces-designs/chessboard/) |
+| 🧩 Piece       | 🖼️ Preview                                         | 💻 Code                   | 🌐 Live Demo                                                               |
+| -------------- | -------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------- |
+| **Chessboard** | ![Chessboard Preview](./chessboard/chessboard.png) | [View Code](./chessboard) | [Live Demo](https://ibraheamit.github.io/chess-pieces-designs/chessboard/) |
+| **Pawn**       | ![Pawn Preview](./pawn/pawn.png)                   | [View Code](./pawn)       | [Live Demo](https://ibraheamit.github.io/chess-pieces-designs/pawn/)       |
 
 ---
 
