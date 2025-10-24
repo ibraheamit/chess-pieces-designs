@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+.rook {
+  width: 280px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Top battlements section */
+.top-section {
+  width: 140px;
+  height: 70px;
+  background: black;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+  display: flex;
+}
+
+.notch {
+  position: absolute;
+  width: 28px;
+  height: 35px;
+  background: #f0f0f0;
+  top: 0;
+}
+
+.notch:nth-child(1) {
+  left: 28px;
+}
+
+.notch:nth-child(2) {
+  left: 84px;
+}
+
+/* Upper collar */
+.collar-top {
+  width: 130px;
+  height: 18px;
+  background: black;
+  border-radius: 9px;
+  margin-top: 2px;
+}
+
+/* Middle tower body */
+.tower {
+  width: 120px;
+  height: 150px;
+  background: black;
+  position: relative;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  margin-top: 2px;
+}
+
+/* Lower collar */
+.collar-bottom {
+  width: 160px;
+  height: 18px;
+  background: black;
+  border-radius: 9px;
+  margin-top: 2px;
+}
+
+/* Base platform */
+.base {
+  width: 200px;
+  height: 40px;
+  background: black;
+  border-radius: 20px;
+  margin-top: 2px;
+}
